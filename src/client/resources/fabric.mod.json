@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "armor_invisible",
+	"version": "${version}",
+	"name": "armor_invisible",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"DusKong"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/armorinvisible/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.github.duskong.armorinvisible.ArmorInvisibleClient"
+		]
+	},
+	"mixins": [
+		"armorinvisible.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
